@@ -3,9 +3,6 @@
 #include<ctime>
 
 struct player{
-  int rock=0;
-  int paper=0;
-  int scissor=0;
   int most=0;
   int wins=0;
   int losses=0;
@@ -19,10 +16,6 @@ struct player{
 };
 
 struct computer{
-  int rock=0;
-  int paper=0;
-  int scissors=0;
-  int most=0;
   int wins=0;
   int losses=0;
   int ties=0;

@@ -84,6 +84,8 @@ void initTest(int choice, int random, player& chara, computer& machine){
     you.losses++;
     you.scissorS++;
   }
+  cout<<"<<<<<<<<<<<<<<<<"<<endl;
+  cout<<you.rockS<<endl;
 }
 
 void stats(player& chara, computer& machine){

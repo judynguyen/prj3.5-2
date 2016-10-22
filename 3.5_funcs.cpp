@@ -11,7 +11,7 @@ int getUserInput(){
   return choice;
 }
 
-void initTest(int choice, int random, player& chara){
+void initTest(int choice, int random, player& chara, computer& machine){
   player you;
   computer cpu;
   int go;
@@ -86,7 +86,7 @@ void initTest(int choice, int random, player& chara){
   }
 }
 
-void stats(){
+void stats(player& chara, computer& machine){
   player you;
   computer cpu;
 

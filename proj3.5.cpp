@@ -13,7 +13,7 @@ int main(){
   int go;
   bool yes=true;
 
-  initTest(choice, random, chara);
+  initTest(choice, random, chara, cpu);
   cout << "Want to play again?(Enter 1 for yes or 2 for no)" << endl;
   cin >> go;
   if(go==1){
@@ -25,7 +25,7 @@ int main(){
   while(yes){
     choice = getUserInput();
     random = rand()%3+1;
-    initTest(choice, random, chara);
+    initTest(choice, random, chara, cpu);
     cout << "Want to play again?(Enter 1 for yes or 2 for no)" << endl;
     cin >> go;
     if(go==1){
@@ -35,6 +35,6 @@ int main(){
       yes = false;
     }
   }
-  stats();
+  stats(chara, cpu);
   return 0;
 }

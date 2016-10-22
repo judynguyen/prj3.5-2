@@ -29,5 +29,5 @@ struct computer{
 };
 
 int getUserInput();
-void initTest(int choice, int random, player& chara);
-void stats();
+void initTest(int choice, int random, player& chara, computer& machine);
+void stats(player& chara, computer& machine);

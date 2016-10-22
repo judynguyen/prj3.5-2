@@ -24,6 +24,7 @@ int main(){
   }
   while(yes){
     choice = getUserInput();
+    random = rand()%3+1;
     initTest(choice, random, chara);
     cout << "Want to play again?(Enter 1 for yes or 2 for no)" << endl;
     cin >> go;

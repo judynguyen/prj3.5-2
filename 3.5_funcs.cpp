@@ -75,7 +75,6 @@ void initTest(int choice, int random, player& you, computer& cpu){
   }
   else if(random == 1 && choice == 3)
   {
-    you.rounds++;
     cout << "The computer chose [rock] while you chose [scissors]." << endl;
     cout << "You lose ):" << endl;
     cpu.wins++;

@@ -3,22 +3,22 @@
 #include<ctime>
 
 struct player{
-  int most;
-  int wins;
-  int losses;
-  int ties;
-  int rounds;
+  int most=0;
+  int wins=0;
+  int losses=0;
+  int ties=0;
+  int rounds=1;
 
   //variables for selection count
-  int rockS;
-  int paperS;
-  int scissorS;
+  int rockS=0;
+  int paperS=0;
+  int scissorS=0;
 };
 
 struct computer{
-  int wins;
-  int losses;
-  int ties;
+  int wins=0;
+  int losses=0;
+  int ties=0;
 };
 
 int getUserInput();

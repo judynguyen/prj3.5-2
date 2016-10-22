@@ -23,6 +23,7 @@ int main(){
     yes = false;
   }
   while(yes){
+    chara.rounds++;
     choice = getUserInput();
     random = rand()%3+1;
     initTest(choice, random, chara, cpu);

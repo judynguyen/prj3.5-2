@@ -11,9 +11,7 @@ int getUserInput(){
   return choice;
 }
 
-void initTest(int choice, int random, player& chara, computer& machine){
-  player you;
-  computer cpu;
+void initTest(int choice, int random, player& you, computer& cpu){
   int go;
   if(random == choice)
   {
@@ -84,14 +82,9 @@ void initTest(int choice, int random, player& chara, computer& machine){
     you.losses++;
     you.scissorS++;
   }
-  cout<<"<<<<<<<<<<<<<<<<"<<endl;
-  cout<<you.rockS<<endl;
 }
 
-void stats(player& chara, computer& machine){
-  player you;
-  computer cpu;
-
+void stats(player& you, computer& cpu){
   cout << "\n" << endl;
 
   //who won the most rounds
